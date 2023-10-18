@@ -7,8 +7,8 @@ const NetlifyForm = () => {
       <form
         method="POST"
         target="_self"
-        id="Contact_General"
-        name="Contact_General"
+        id="contact"
+        name="contact"
         data-netlify="true"
         action="/success"
       >
