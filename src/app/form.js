@@ -6,13 +6,11 @@ const NetlifyForm = () => {
       <h1>Netlify Form Testing</h1>
       <form
         method="POST"
-        target="_self"
-        id="contact"
         name="contact"
-        data-netlify="true"
-        action="/success"
+        // data-netlify="true"
+        // action="/success"
       >
-        <input type="hidden" name="form-name" value="formtest" />
+        <input type="hidden" name="form-name" value="contact" />
 
         <p>
           <label htmlFor="name">Name</label>
