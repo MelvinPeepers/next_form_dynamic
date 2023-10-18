@@ -10,7 +10,6 @@ const NetlifyForm = () => {
         id="Contact_General"
         name="Contact_General"
         data-netlify="true"
-        netlify-honeypot="bot-field"
         action="/success"
       >
         <input type="hidden" name="form-name" value="formtest" />
